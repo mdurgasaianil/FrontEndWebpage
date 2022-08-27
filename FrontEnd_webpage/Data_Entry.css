@@ -1,0 +1,238 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* .nav_bar{
+  width: 1500px;
+  height: 50px;
+  background-color: Green;
+  font-family: sans-serif;
+  font-style:oblique;
+  display: flex;
+} */
+nav{
+  /* display: flex; */
+  z-index: 2;
+  width: 1500px;
+  height: 50px;
+  background-color: Green;
+  font-family: sans-serif;
+  font-style:oblique;
+}
+ion-icon{
+  vertical-align: bottom;
+  font-size: 20px;
+  padding-right: 5px;
+}
+li a{
+  background-color: blue;
+  /* color:#fff; */
+  cursor: pointer;
+  text-decoration: none;
+}
+.parent_nav{
+  width:100%;
+}
+.child_nav{
+  display: inline-block;
+}
+.cart_nav{
+  margin-left: 1000px;
+}
+nav li{
+  list-style: None;
+  /* padding-right: 10px;
+  padding-left: 10px; */
+}
+nav li span{
+  padding-left: 5px;
+}
+li a{
+  padding: 5px;
+  background-color: #fff;
+  text-decoration: none;
+}
+h3{
+  padding-top: 5px;
+  margin-left: 50px;
+  padding-left: 5px;
+  color: white;
+  width: 10px;
+  border-left: 2px solid white;
+}
+a{
+  text-decoration: none;
+}
+.table_pd{
+  margin: 10;
+  width: 100%;
+}
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  margin-left: 20px;
+}
+.grandchild{
+  margin-left: 300px;
+  height: auto;
+  background: #a0d9a0;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 0;
+}
+.label{
+  padding: 20px 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #130f40;
+  font-family: sans-serif;
+}
+.pd_form{
+  padding: 10px 40px;
+    font-family: sans-serif;
+}
+.pd_form input{
+  height: 40px;
+  width: 350px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid silver;
+  background-color: #e5dada;
+}
+.pd_form .font{
+  font-size: 18px;
+  color: #130f40;
+  margin-left: 5px 0;
+  margin-bottom: 3px;
+}
+.pd_form #code_error{
+  margin-top: 5px;
+  width: 270px;
+  font-size: 12px;
+  color: #C62828;
+  background: rgba(255, 0, 0, 0.1);
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid #EF9A9A;
+  display: none;
+}
+.pd_form button:hover{
+  background: #151c6a;
+}
+.pd_form input:focus{
+  background: white;
+}
+.pd_form button{
+  margin: 20px 0 30px 0;
+  height: 45px;
+  width: 300px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #1A237E;
+  border-radius: 3px;
+  border: 1px solid #3949AB;
+  font-family: sans-serif;
+  transition: .5s;
+}
+table {
+  border-collapse: collapse;
+  width: 150%;
+  font-family: sans-serif;
+  margin-top: 30px;
+  margin-left: 70px;
+  /* display: flex; */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+/* .table_row td{
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+} */
+ion-icon{
+  color: DodgerBlue;
+  cursor:pointer;
+  pointer-events: none;
+}
+
+tr:hover {background-color: #E5E4E2;}
+.remove{
+  color:white;
+}
+
+.remove_button{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 60%;
+}
+.remove_button:hover {
+  background-color: red;
+}
+/* .products-container{
+max-width: 650px;
+justify-content: space-around;
+margin: 0 auto;
+margin-top: 50px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 50px;
+padding-bottom: 100px;
+}
+.products-container ion-icon{
+  font-size: 25px;
+  color: blue;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 15%;
+  cursor:pointer;
+}
+.product-header{
+  width:100%;
+  max-width: 650px;
+  display:flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgrey;
+  margin: 0 auto;
+}
+.product-title{
+  width:45%;
+}
+.price{
+  width:15%;
+
+  display: flex;
+  align-items: center;
+}
+.quantity{
+  width:30%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+}
+.total{
+  width: 10%;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+}
+.product{
+  width:45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:10px 0;
+  border-bottom: 1px solid lightgrey
+} */

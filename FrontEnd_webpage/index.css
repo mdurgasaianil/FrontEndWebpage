@@ -1,0 +1,197 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.parent_nav{
+  overflow: hidden;
+  background-color: Green;
+  font-family: sans-serif;
+}
+.parent_nav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.child_nav{
+  float: right;
+  padding-right: 100px;
+  font-family: sans-serif;
+}
+ion-icon{
+  vertical-align: bottom;
+  font-size: 20px;
+  padding-right: 5px;
+}
+li a{
+  cursor: pointer;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: blue;
+}
+/* -------------------------------NAV BAR COMPLETED ----------------------*/
+/* -------------------------------PRODUCT TABLE --------------------------*/
+.table_pd{
+  width: 50%;
+  height:100px;
+  margin-left: 60px;
+  /* border: 2px solid black; */
+  float: left;
+  margin-top: 50px;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  font-family: sans-serif;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: #E5E4E2;}
+.remove{
+  color:white;
+}
+/* -------------------------------PRODUCT FORM --------------------------*/
+.product_form{
+  width: 35%;
+  height:250px;
+  border: 2px solid green;
+  border-radius: 20px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 25px;
+  align-items: center;
+  background-color:#a0d9a0;
+}
+.container{
+  font-family: sans-serif;
+  padding: 5px 0px 10px 50px;
+}
+.label{
+  padding: 20px 70px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #130f40;
+  font-family: sans-serif;
+}
+.product_form input{
+  height: 40px;
+  width: 350px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid silver;
+  background-color: #e5dada;
+  border-radius: 6px;
+}
+.pd_form .font{
+  font-size: 18px;
+  color: #130f40;
+  margin-left: 5px 0;
+  margin-bottom: 3px;
+}
+.product_form button{
+  margin: 20px 0 30px 0;
+  height: 45px;
+  width: 300px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #1A237E;
+  border-radius: 3px;
+  border: 1px solid #3949AB;
+  font-family: sans-serif;
+  transition: .5s;
+}
+.pd_form button:hover{
+  background: #151c6a;
+}
+.pd_form input:focus{
+  background: white;
+  border: 1px solid black;
+
+}
+/* -------------------------------REMOVE BUTTON --------------------------*/
+
+.remove_button{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 60%;
+}
+.remove_button:hover {
+  background-color: red;
+}
+/* -------------------------------QUANTITY -----------------------------*/
+
+.quantity{
+  width: 40%;
+  font-family: sans-serif;
+  border: 1px solid lightgreen;
+  background-color: lightgrey;
+  border-radius: 4px;
+  text-align: center;
+  height: 30px;
+  font-weight: bolder;
+}
+.quantity:focus{
+  background-color: white;
+}
+/* -------------------------------BILL FORM -----------------------------*/
+.bill_form{
+  width: 35%;
+  height:250px;
+  border: 2px solid green;
+  border-radius: 20px;
+  /* margin-right: 50px;  */
+  margin-top: 20px;
+  align-items: center;
+  background-color:#a0d9a0;
+  position: absolute;
+  /* display: none; */
+}
+.bill_form table{
+margin-top: 10px;
+}
+.bill_form tr:hover {background-color: inherit;}
+.bill_form button{
+  /* margin: 10px 0 10px 0; */
+  height: 45px;
+  width: 200px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #c92020;
+  border-radius: 3px;
+  border: 1px solid #3949AB;
+  font-family: sans-serif;
+  transition: .5s;
+}
+.bill_form button:hover {background-color: red;}
+.Bill_billingScreen .label{
+  padding: 20px 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #130f40;
+  font-family: sans-serif;
+  text-align: center;
+}
+#time{
+  font-size: 15px;
+  color: #130f40;
+  font-family: sans-serif;
+  text-align: center;
+}

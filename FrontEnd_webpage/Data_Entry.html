@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Data Entry page</title>
+    <link rel="stylesheet" href="Data_Entry.css">
+  </head>
+  <body>
+      <nav>
+        <div class="parent_nav">
+          <div class="child_nav">
+            <div class="nav_bar">
+              <a href="Data_Entry.html"><h3>Acme Grocers</h3></a>
+            </div>
+          </div>
+          <div class="child_nav cart_nav">
+            <ul>
+              <li class="cart_icon"> <a href="Data_Entry.html"><ion-icon name="basket"></ion-icon>Cart <span>0</span></a> </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+        <div class="table_pd">
+          <div class="child">
+            <table id = "mytable">
+              <div class="table_head">
+                <th>Product ID</th><th>Item Name</th><th>Price</th><th>Quantity</th><th>Total</th>
+              </div>
+              <div class="table_row">
+
+              </div>
+            </table>
+          </div>
+          <!-- <div class="products-container">
+            <div class="product-header">
+              <h5 class="product-title">PRODUCT</h5>
+              <h5 class="price">PRICE</h5>
+              <h5 class="quantity">QUANTITY</h5>
+              <h5 class="total">TOTAL</h5>
+            </div>
+            <div class="products">
+
+            </div>
+          </div> -->
+            <div class="child">
+              <div class="grandchild">
+              <div class="container">
+                <h1 class="label">PRODUCT CODE</h1>
+                <form class="pd_form" autocomplete="off" method="post" name="prod_form" onsubmit="return cartNumbers()">
+                  <div class="font font2">Code</div>
+                  <input type="text" name="code" title="Product code" placeholder="Enter Product Code" minlength="4" maxlength="4" required>
+                  <div id="code_error">Please Enter Correct Product Code</div>
+                  <div><button class="add-cart" title="Add to Cart" type="submit">Add to Cart</button></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="cart.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
