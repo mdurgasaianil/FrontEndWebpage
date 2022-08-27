@@ -195,3 +195,13 @@ margin-top: 10px;
   font-family: sans-serif;
   text-align: center;
 }
+.goback{
+  text-decoration: none;
+  cursor: pointer;
+}
+.goback:hover{
+  color: blue;
+}
+ion-icon{
+  pointer-events: none;
+}

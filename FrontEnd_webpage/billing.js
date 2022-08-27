@@ -38,9 +38,18 @@ function displayBill(){
     let cell10 = row1.insertCell(4);
     cell9.innerHTML = "Total Amount to be paid"
     cell10.innerHTML = cartCostbill + tax;
+    let row2 = table.insertRow(-1);
+    let cell11 = row2.insertCell(0);
+    cell11.innerHTML = `<a href="index.html" title="return to product page" class="goback" onclick="clearprod()"><ion-icon name="arrow-undo"></ion-icon> Return to Product page</a>`
   }
 }
 displayBill()
 let datetime = new Date();
 console.log(datetime);
 document.getElementById("time").textContent = "Bill generated date and time: "+datetime;
+
+function clearprod(){
+  localStorage.removeItem("productsInCart");
+  localStorage.removeItem("totalCost");
+  localStorage.removeItem("cartNumbers");
+}
