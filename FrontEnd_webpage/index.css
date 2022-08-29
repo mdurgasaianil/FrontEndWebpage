@@ -205,3 +205,17 @@ margin-top: 10px;
 ion-icon{
   pointer-events: none;
 }
+.printBill{
+  height: 35px;
+  width: 80px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #25cf32;
+  border-radius: 3px;
+  border: 1px solid #3949AB;
+  font-family: sans-serif;
+}
+.printBill:hover{background-color: #03f916;}

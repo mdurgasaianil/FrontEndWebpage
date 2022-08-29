@@ -41,6 +41,14 @@ function displayBill(){
     let row2 = table.insertRow(-1);
     let cell11 = row2.insertCell(0);
     cell11.innerHTML = `<a href="index.html" title="return to product page" class="goback" onclick="clearprod()"><ion-icon name="arrow-undo"></ion-icon> Return to Product page</a>`
+    let row3 = table.insertRow(-1);
+    let row4 = table.insertRow(-1);
+    let cell12 = row4.insertCell(0);
+    let cell13 = row4.insertCell(1);
+    let cell14 = row4.insertCell(2);
+    let cell15 = row4.insertCell(3);
+    let cell16 = row4.insertCell(4);
+    cell14.innerHTML = `<button class="printBill" onclick="window.print()">print</button>`
   }
 }
 displayBill()
